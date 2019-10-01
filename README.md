@@ -10,6 +10,9 @@
   <a href="https://github.com/just-apply/web/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
+  <a href="https://travis-ci.com/just-apply/web">
+    <img alt="Version" src="https://travis-ci.com/just-apply/web.svg?branch=master">
+  </a>
 </p>
 
 > Just apply is a application where we can apply a few stacks we want to learn more about. Here you were find a few pratices for few problems.
