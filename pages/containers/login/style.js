@@ -1,8 +1,11 @@
 const Style = () => (
-    <style jsx>
+    <style jsx="true">
         {`
             .container {
-                background-color: black !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
             }
         `}
     </style>
