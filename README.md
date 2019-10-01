@@ -32,7 +32,7 @@ npm run test
 
 👤 **Eduardo Klein and Leandro Fagundes**
 
-* Github: [@eduardogerentklein, @leandrofagundes ](https://github.com/eduardogerentklein, https://github.com/leandrofagundes)
+* Github: [@eduardogerentklein](https://github.com/eduardogerentklein), [@leandrofagundes](https://github.com/leandrofagundes)
 
 ## 🤝 Contributing
 
@@ -44,7 +44,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2019 [Eduardo Klein and Leandro Fagundes](https://github.com/eduardogerentklein, https://github.com/leandrofagundes).<br />
+Copyright © 2019 [@eduardogerentklein](https://github.com/eduardogerentklein), [@leandrofagundes](https://github.com/leandrofagundes).<br />
 This project is [MIT](https://github.com/just-apply/web/blob/master/LICENSE) licensed.
 
 ***
