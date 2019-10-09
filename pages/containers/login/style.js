@@ -6,7 +6,7 @@ const useStyles = makeStyles(theme => ({
         overflow: 'hidden',
     },
     image: {
-        backgroundImage: 'url(https://source.unsplash.com/random)',
+        backgroundImage: 'url(https://source.unsplash.com/random?water)',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
