@@ -4,6 +4,7 @@ import { TextField } from '../../components/textfield'
 import { Typography } from '../../components/typography'
 import { Avatar } from '../../components/avatar';
 import { Paper } from '../../components/paper'
+import { Link } from '../../components/link'
 import CopyRight from '../copyright/index'
 import useStyles from '../login/style'
 
