@@ -4,7 +4,6 @@ import { TextField } from '../../components/textfield'
 import { Typography } from '../../components/typography'
 import { Avatar } from '../../components/avatar';
 import { Paper } from '../../components/paper'
-import { Link } from '../../components/link'
 import CopyRight from '../copyright/index'
 import useStyles from '../login/style'
 
@@ -12,12 +11,20 @@ import KeyboardTabOutlinedIcon from '@material-ui/icons/KeyboardTabOutlined';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
+const handleSubmit = async () => {
+    
+    const response = await fetch('https://localhost:5001/AuthLogin?userName=eduardok&password=123edc', {
+        method: 'POST'
+    });
+    return await response.json();
+}
+
 const Login = () => (
     <Grid container component="main" className={useStyles().root}>
         <CssBaseline />
         <Grid item xs={false} sm={4} md={8} className={useStyles().image} />
         <Grid item xs={12} sm={8} md={4} component={Paper} elevation={6} square>
-            <form className={useStyles().paper}>
+            <form className={useStyles().paper} onSubmit={handleSubmit}>
                 <Avatar className={useStyles().avatar}>
                     <LockOutlinedIcon />
                 </Avatar>
@@ -53,7 +60,7 @@ const Login = () => (
                     fullWidth 
                     size="large"
                     endIcon={<KeyboardTabOutlinedIcon />}
-                    onClick={sender => console.log(sender)}>
+                    onClick={handleSubmit}>
                     SIGN IN
                 </Button>
             </form>
