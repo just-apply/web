@@ -13,7 +13,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 
 const handleSubmit = async () => {
     
-    const response = await fetch('https://localhost:5001/AuthLogin?userName=eduardok&password=123edc', {
+    const response = await fetch('https://localhost:5001/api/v1/Auth', {
         method: 'POST'
     });
     return await response.json();
